@@ -14,6 +14,6 @@ int find_max(int arr[]){
 }
 
 int main(){
-    int arr[5] = {1, 2, 3 ,4 ,6};
+    int arr[5] = {1, 2, 3 ,4 ,5};
     cout << endl << find_max(arr) << endl;
 }
