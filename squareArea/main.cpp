@@ -8,6 +8,6 @@ int main(){
     double resultArea;
     resultArea = c.calculateArea();
 
-    std::cout<< resultArea;
+    std::cout << std::endl << resultArea << std::endl;
     return 0;
 };
