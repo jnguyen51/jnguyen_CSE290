@@ -1,5 +1,6 @@
 #include "Square.h"
 #include <iostream>
+using namespace square;
 
 int main(){
     Square c;

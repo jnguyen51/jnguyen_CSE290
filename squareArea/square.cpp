@@ -1,5 +1,6 @@
 #include "Square.h"
 
+namespace square{
 void Square::setLength(double length) {
     length_ = length;
 }
@@ -10,4 +11,5 @@ void Square::setWidth(double width) {
 
 double Square::calculateArea(){
     return length_ * width_;
+}
 }

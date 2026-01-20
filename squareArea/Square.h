@@ -1,6 +1,6 @@
 #pragma once
 
-
+namespace square{
 class Square{
     public:
         double calculateArea();
@@ -11,4 +11,5 @@ class Square{
     private:
         double width_;
         double length_;
+};
 };
